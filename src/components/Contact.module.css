@@ -2,6 +2,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 600px;
   margin: 0 auto;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.inputsBlock {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+#message {
+  width: 500px;
 }
