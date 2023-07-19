@@ -43,3 +43,13 @@ nav {
   color: #A59132;
   text-decoration: underline;
 }
+.navContainer a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #FFFBDB
+}
+.navContainer a:hover {
+  cursor: pointer;
+  color: #A59132;
+  text-decoration: underline;
+}

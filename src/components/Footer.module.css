@@ -9,3 +9,22 @@ footer {
   bottom: 0;
   z-index: 5;
 }
+.socialContainer {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  height: 100%;
+  gap: 16px;
+}
+.iconContainer {
+  height: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon:hover {
+  font-size: 1.35rem;
+  transition: all .15s ease-in-out;
+  cursor: pointer;
+}
