@@ -8,12 +8,12 @@ const Footer = () => {
       <div className={classes.socialContainer}>
         <div className={classes.iconContainer}>
           <a href="https://www.linkedin.com/in/tobinkwaters/" target="_blank">
-            <BsLinkedin className={classes.icon} size="2em" color="FFFFFF" />
+            <BsLinkedin className={classes.icon} size="2em"/>
           </a>
         </div>
         <div className={classes.iconContainer}>
           <a href="https://github.com/tkwaterss" target="_blank">
-            <BsGithub className={classes.icon} size="2em" color="FFFFFF" />
+            <BsGithub className={classes.icon} size="2em"/>
           </a>
         </div>
       </div>

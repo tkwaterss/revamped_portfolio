@@ -23,9 +23,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.icon {
-  filter: invert(100%);
-}
 .icon:hover {
   font-size: 1.3rem;
   transition: all .15s ease-in-out;
