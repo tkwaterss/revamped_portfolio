@@ -9,7 +9,7 @@ const Projects = () => {
       <div className={classes.projectDivider}></div>
       <section className={classes.project}>
         <section className={classes.projectPreview}>
-          <a
+          {/* <a
             target="_blank"
             href="https://bicycle-bandits.herokuapp.com/"
             alt="screenshot of Bike Bandits"
@@ -19,28 +19,28 @@ const Projects = () => {
               src="./images/Screenshot 2023-06-01 125426.png"
               alt="Bicycle Bandits Screenshot"
             />
-          </a>
+          </a> */}
         </section>
         <section className={classes.projectDescription}>
           <h3>Bicycle Bandits</h3>
           <div className={classes.projectLinksContainer}>
             <h5>
-              <a target="_blank" href="https://youtu.be/Rw1oUMVaRDo">
+              {/* <a target="_blank" href="https://youtu.be/Rw1oUMVaRDo">
                 Watch a Demo
-              </a>
+              </a> */}
             </h5>
             <h5>
-              <a target="_blank" href="https://bicycle-bandits.herokuapp.com/">
+              {/* <a target="_blank" href="https://bicycle-bandits.herokuapp.com/">
                 Visit the App
-              </a>
+              </a> */}
             </h5>
             <h5>
-              <a
+              {/* <a
                 target="_blank"
                 href="https://github.com/tkwaterss/Bicycle_Bandits"
               >
                 See the Code
-              </a>
+              </a> */}
             </h5>
           </div>
           <p>
@@ -67,9 +67,9 @@ const Projects = () => {
           <h3>Cycle Mate</h3>
           <div className={classes.projectLinksContainer}>
             <h5>
-              <a target="_blank" href="https://github.com/tkwaterss/Cycle_Mate">
+              {/* <a target="_blank" href="https://github.com/tkwaterss/Cycle_Mate">
                 See the Code
-              </a>
+              </a> */}
             </h5>
           </div>
           <p>
@@ -87,7 +87,7 @@ const Projects = () => {
           </ol>
         </section>
         <section className={classes.projectPreview}>
-          <a
+          {/* <a
             target="_blank"
             href="https://github.com/tkwaterss/Cycle_Mate"
             alt="Screenshot of Cycle Mate"
@@ -97,7 +97,7 @@ const Projects = () => {
               src="./images/bike-bandits-screenshot.png"
               alt="Cycle Mate Screenshot"
             />
-          </a>
+          </a> */}
         </section>
       </section>
       <div className="project-divider"></div>

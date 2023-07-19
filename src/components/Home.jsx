@@ -16,7 +16,7 @@ const Home = () => {
                 <button>Check out my projects!</button>
             </div>
             <div className={classes.homeRight}>
-                <img src={portrait} alt="Photo of Tobin" />
+                <img src={portrait} alt="Tobin" />
             </div>
     </section>
   )

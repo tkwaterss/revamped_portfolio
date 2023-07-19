@@ -7,9 +7,9 @@
 }
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-template-rows: minmax(100px, auto);
+  grid-template-columns: auto;
+  gap: 40px;
+  grid-template-rows: auto;
 }
 .react {
   grid-column: 1;
@@ -41,5 +41,9 @@
 }
 .css {
   grid-column: 2;
+  grid-row: 3;
+}
+.postman {
+  grid-column: 3;
   grid-row: 3;
 }
