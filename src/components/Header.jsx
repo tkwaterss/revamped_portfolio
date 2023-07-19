@@ -1,21 +1,17 @@
 import React from "react";
 import classes from "./Header.module.css";
-import logo from '../images/TKW-logo.png';
-import {NavLink, Link } from 'react-router-dom'
-
+import logo from "../images/TKW-logo.png";
+import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   const activeStyle = ({ isActive }) => {
     return {
-      color: isActive ? "#A59132" : "",
+      color: isActive ? "#000000" : "",
       textDecoration: isActive ? "underline" : "",
     };
   };
   return (
     <header>
-      <div className={classes.logoContainer}>
-        <img className={classes.logo} src={logo} alt="personal logo"></img>
-      </div>
       <nav>
         <ul className={classes.navContainer}>
           <li>
@@ -43,7 +39,6 @@ const Header = () => {
               Contact
             </NavLink>
           </li>
-          
         </ul>
       </nav>
     </header>
