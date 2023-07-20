@@ -1,9 +1,9 @@
 header {
   width: 100vw;
   min-width: 800px;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
   height: 60px;
-  color: #000000;
+  color: #050726;
   display: flex;
   justify-content: right;
   align-items: center;
@@ -30,16 +30,16 @@ nav {
 }
 .navContainer li:hover { 
   cursor: pointer;
-  color: #666666;
+  color: #012877;
   text-decoration: underline;
 }
 .navContainer a {
   text-decoration: none;
   font-weight: 300;
-  color: #666666
+  color: #012877
 }
 .navContainer a:hover {
   cursor: pointer;
-  color: #000000;
+  color: #050726;
   text-decoration: underline;
 }

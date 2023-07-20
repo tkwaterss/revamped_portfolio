@@ -12,7 +12,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <BsLinkedin className={classes.icon} size="2em" />
+            <BsLinkedin className={classes.icon} size="2em" color="#012877" />
           </a>
         </div>
         <div className={classes.iconContainer}>
@@ -21,7 +21,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <BsGithub className={classes.icon} size="2em" />
+            <BsGithub className={classes.icon} size="2em" color="#012877" />
           </a>
         </div>
       </div>

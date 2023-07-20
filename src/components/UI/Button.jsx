@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import classes from "./Button.module.css";
 
-const Button = () => {
+const Button = (props) => {
   return (
-    <div>Button</div>
-  )
-}
+    <button
+      type={props.type}
+      onClick={props.function}
+      className={`${classes.largeBtn} ${props.className}`}
+    >
+      {props.children}
+    </button>
+  );
+};
 
-export default Button
+export default Button;

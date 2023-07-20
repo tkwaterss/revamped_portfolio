@@ -22,6 +22,8 @@ html {
 body {
   font-family: 'Montserrat';
   min-width: 800px;
+  color: #050726;
+  background-color: #F2F2F2;
 }
 main {
   min-height: calc(100vh - 120px);

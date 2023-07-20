@@ -3,6 +3,7 @@ import classes from "./Contact.module.css";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import Input from "./UI/Input";
+import Button from "./UI/Button";
 
 const Contact = () => {
   const validationSchema = yup.object().shape({
@@ -89,7 +90,7 @@ const Contact = () => {
               formik.touched.message && formik.errors.message ? true : false
             }
           ></textarea>
-        <button type="submit" className={classes.contactSubmitBtn}>Send</button>
+        <Button type="submit" >Send</Button>
         </div>
       </form>
     </section>
