@@ -4,6 +4,7 @@ import { useFormik } from "formik";
 import * as yup from "yup";
 import Input from "./UI/Input";
 import Button from "./UI/Button";
+import Textarea from "./UI/Textarea";
 
 const Contact = () => {
   const validationSchema = yup.object().shape({
@@ -55,7 +56,7 @@ const Contact = () => {
               {formik.touched.name && formik.errors.name ? (
                 <div>{formik.errors.name}</div>
               ) : (
-                "Name"
+                "Name*"
               )}
             </Input>
             <Input
@@ -73,24 +74,34 @@ const Contact = () => {
               {formik.touched.email && formik.errors.email ? (
                 <div>{formik.errors.email}</div>
               ) : (
-                "Email"
+                "Email*"
               )}
             </Input>
           </div>
-          <textarea
-            id={classes.message}
-            name="message"
-            rows="8"
+          <Textarea
+            id="message"
+            rows="6"
             cols="80"
+            name="message"
             value={formik.values.message}
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
-            placeholder="Your Message"
+            placeholder="message"
             invalid={
               formik.touched.message && formik.errors.message ? true : false
             }
-          ></textarea>
-        <Button type="submit" >Send</Button>
+          >
+            {formik.touched.message && formik.errors.message ? (
+              <div>{formik.errors.message}</div>
+            ) : (
+              "Message*"
+            )}
+          </Textarea>
+          <div className={classes.sendBtnContainer}>
+            <Button type="submit">
+              Send
+            </Button>
+          </div>
         </div>
       </form>
     </section>
