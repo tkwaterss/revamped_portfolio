@@ -7,6 +7,7 @@ const Header = () => {
     return {
       color: isActive ? "#313628" : "",
       textDecoration: isActive ? "underline" : "",
+      fontWeight: isActive ? "bold" : "",
     };
   };
   return (

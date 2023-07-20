@@ -5,6 +5,12 @@
   width: 80%;
   margin: 0 auto;
 }
+.cardContainer {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
 .projectDivider {
   width: 100%;
   border: solid 2px rgb(1, 40, 119, 0.5);
