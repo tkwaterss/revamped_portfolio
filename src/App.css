@@ -24,10 +24,11 @@ body {
   min-width: 800px;
   color: #050726;
   background-color: #F2F2F2;
+  scroll-behavior: smooth;
 }
 main {
   min-height: calc(100vh - 120px);
-  margin-top: 60px;
+  /* margin-top: 60px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
