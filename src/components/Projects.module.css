@@ -5,43 +5,4 @@
   gap: 40px;
   flex-wrap: wrap;
   width: 96%;
-  margin: 0 auto;
-}
-.cardContainer {
-  display: flex;
-  gap: 50px;
-  flex-wrap: wrap;
-  margin: 20px;
-  border: solid;
-}
-.projectDivider {
-  width: 100%;
-  border: solid 2px rgb(1, 40, 119, 0.5);
-  margin: 20px auto;
-}
-.project {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.projectPreview {
-  border: solid;
-  width: 40%;
-}
-.projectDescription {
-  border: solid;
-  width: 50%;
-  text-align: right;
-}
-.projectLinksContainer {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 5%;
-}
-.projectSkills {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 8px;
 }

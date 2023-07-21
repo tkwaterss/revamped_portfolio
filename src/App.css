@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 0px;
 }
 ::-webkit-scrollbar-track {
   background: #777c76;
